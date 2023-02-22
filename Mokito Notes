@@ -1,0 +1,20 @@
+------------------------Stub: ------------------------
+
+A dummy piece of code that lets the test run, but you don't care what happens to it. 
+Substitutes for real working code.
+
+------------------------Mock: ------------------------
+
+A dummy piece of code that you verify is called correctly as part of the test. 
+Substitutes for real working code.
+
+------------------------Spy: ------------------------
+
+A dummy piece of code that intercepts and verifies some calls to real working code, 
+avoiding the need to substitute all the real code.
+
+
+------------------------Anotation Used : ------------------------
+
+@Mock, @InjectMocks, @BeforeEach, @AfterEach, @Test, @Disabled,  @Spy
+@RunWith(SpringRunner.class), @ExtendWith(MockitoExtension.class)
